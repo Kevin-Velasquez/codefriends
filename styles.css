@@ -1,9 +1,10 @@
 
 #Kevin {
 	color: blue;
+}
 
 #Anthony {
-	color: pink;
+	color: #eee;
 	font-style: italic;
-
+	font-weight: bold;
 }
