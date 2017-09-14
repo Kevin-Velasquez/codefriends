@@ -10,7 +10,7 @@ body {
 /* Put your signature down below and style how you want! */
 #Kevin {
 	color: blue;
-	font-size: 10px;
+	font-size: 16px;
 }
 
 #Anthony {
@@ -19,6 +19,15 @@ body {
 	font-weight: bold;
 }
 
+#Nick {
+	color: blue;
+	font-size: 16px;
+}
+
+#Luis {
+	color: blue;
+	font-size: 16px;
+}
 /* This is the area to style certain elements on the page. To style certain tags of html, just use their 
 letter, for example: 
 
