@@ -19,6 +19,15 @@ body {
 	font-weight: bold;
 }
 
+#Nick {
+	color: blue;
+	font-size: 16px;
+}
+
+#Luis {
+	color: blue;
+	font-size: 16px;
+}
 /* This is the area to style certain elements on the page. To style certain tags of html, just use their 
 letter, for example: 
 
