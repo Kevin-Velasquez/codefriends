@@ -13,7 +13,7 @@ var quote = document.getElementById("quote");
 leftButton.disabled = false;
 
 leftButton.addEventListener("mouseover", function() {
-    quote.innerHTML = "This is a button";
+    quote.innerHTML = "Click For the current time.";
 });
 
 leftButton.addEventListener("click", function() {
