@@ -9,11 +9,16 @@ document.getElementById = HTML selector targeting the element with an "id"
 var leftButton = document.getElementById("popup");
 var rightButton = document.getElementById("remove");
 var quote = document.getElementById("quote");
+var subtext = document.getElementById("subtext");
 
 leftButton.disabled = false;
 
 leftButton.addEventListener("mouseover", function() {
     quote.innerHTML = "Click For the current time.";
+});
+
+rightButton.addEventListener("mouseover", function() {
+    subtext.innerHTML = "Click to change the background.";
 });
 
 leftButton.addEventListener("click", function() {
