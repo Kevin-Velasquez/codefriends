@@ -9,11 +9,53 @@ body {
 
 /* Put your signature down below and style how you want! */
 #Kevin {
-	color: blue;
+	color: pink;
 }
 
 #Anthony {
 	color: #884343;
+	font-style: italic;
+	font-weight: bold;
+}
+
+/* This is the area to style certain elements on the page. To style certain tags of html, just use their 
+letter, for example: 
+
+	HTML : <p> Hello </p> 
+	CSS: p {
+			color: pink;
+		}
+
+Or in order to access certain ID's, just put a '#' in front of the ID you gave it. (ie => #hello)
+Or in order to access certain classes, just put a '.' in front of the class you gave it. (ie => .hello)
+*/
+.header {
+	margin-top: 35vh;
+}
+
+h1 {
+	color: #000;
+	font-style: italic;
+}
+
+hr {
+	background-color: rgb(0, 0, 255);
+	margin-left: 25vw;
+	margin-right: 25vw;
+}
+
+#popup, #remove {
+	background-color: #000;
+	color: #fff;
+}
+
+#popup:hover {
+	background-color: cyan;
+	color: #000;
+	font-weight: bold;
+}
+
+=======
 	font-style: italic;
 	font-weight: bold;
 }
