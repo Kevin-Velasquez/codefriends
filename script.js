@@ -23,5 +23,5 @@ leftButton.addEventListener("click", function() {
 rightButton.addEventListener("click", function() {
     document.body.style.backgroundImage = 'url(https://i.ytimg.com/vi/3g0reUIKCys/maxresdefault.jpg)';
     quote.innerHTML = "Hello";
-    leftButton.disabled = true;
+    //leftButton.disabled = true;
 });
